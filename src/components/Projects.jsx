@@ -3,7 +3,7 @@ import lifesyncImg from "../assets/img/lifesync-site.png";
 
 export default function Projects() {
     return (
-        <section id="projects" className="section-padding bg-dark-bg">
+        <section id="projects" className="section-padding bg-dark-secondary">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Projects</h2>

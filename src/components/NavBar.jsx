@@ -77,15 +77,15 @@ export function NavBar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden inline-flex items-center justify-center w-10 h-10 text-gray-300 hover:text-cyan-custom"
+          className="md:hidden absolute right-4 top-1/2 -translate-y-1/2 inline-flex items-center justify-center w-10 h-10 text-gray-300 hover:text-cyan-custom"
           id="mobile-menu-btn"
           aria-expanded={isOpen}
           aria-controls="mobile-menu"
           onClick={() => setIsOpen(!isOpen)}
         >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
         </button>
 
         {/* Backdrop */}

@@ -57,10 +57,10 @@ export default function Resume() {
 }, []);
     
     return (
-        <section id="resume" className="section-padding ">
+        <section id="resume" className="section-padding bg-dark-secondary border-t border-dark-accent">
             <div className="container mx-auto px-6">
                 <div className="mt-12">
-                    <h3 className="text-2xl font-bold mb-8 text-purple-custom flex items-center">
+                    <h3 className="text-2xl font-bold justify-center mx-auto lg:justify-start lg:mx-0 mb-8 text-purple-custom flex items-center">
                         <svg className="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
