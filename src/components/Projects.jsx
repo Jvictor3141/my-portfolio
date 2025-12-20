@@ -1,4 +1,5 @@
 import coffeeImg from "../assets/img/site-coffee.png";
+import lifesyncImg from "../assets/img/lifesync-site.png";
 
 export default function Projects() {
     return (
@@ -42,10 +43,10 @@ export default function Projects() {
                     
                     <div className="glass-effect rounded-lg overflow-hidden hover-glow transition-all duration-300 transform hover:scale-105 animate-slide-up" data-delay="200">
                         <div className="h-48 bg-linear-to-br from-blue-custom to-purple-custom flex items-center justify-center">
-                            <div id="project2-animation" className="w-32 h-32"></div>
+                            <img src={lifesyncImg} alt="LifeSync" className="w-full h-full object-cover" />
                         </div>
                         <div className="p-6">
-                            <h3 className="text-xl font-bold text-white mb-3">Personal Agenda</h3>
+                            <h3 className="text-xl font-bold text-white mb-3">LifeSync</h3>
                             <p className="text-gray-300 mb-4">
                                 A personal agenda application to help users manage their tasks and appointments efficiently, featuring a clean interface and intuitive navigation.
                             </p>
@@ -55,13 +56,13 @@ export default function Projects() {
                                 <span className="bg-teal-custom/20 text-teal-custom px-3 py-1 rounded-full text-sm">TailwindCSS</span>
                             </div>
                             <div className="flex gap-4">
-                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-cyan-custom hover:text-white transition-colors duration-300">
+                                <a href="https://lifesync-project.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-cyan-custom hover:text-white transition-colors duration-300">
                                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                                         <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
                                         <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
                                     </svg>
                                 </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+                                <a href="https://github.com/Jvictor3141/lifesync-project" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
                                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/>
                                     </svg>

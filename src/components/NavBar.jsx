@@ -60,7 +60,7 @@ export function NavBar() {
     };
   }, []);
   return (
-    <nav className="fixed top-0 w-full z-50 glass-effect backdrop-blur-xl shadow-lg px-4 py-3 border-b border-white/10" id="navbar">
+    <nav className="sticky top-10 w-4/5 z-50 hover-glow transition-all duration-300 mx-auto rounded-lg glass-effect backdrop-blur-xl shadow-lg px-4 py-3 border-b border-white/10" id="navbar">
       <div className="relative flex justify-between items-center max-w-7xl mx-auto">
         <div className="text-2xl font-bold gradient-text">
             Meu Portfólio
