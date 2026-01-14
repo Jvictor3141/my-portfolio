@@ -60,14 +60,14 @@ export default function Resume() {
         <section id="resume" className="section-padding bg-dark-secondary border-t border-dark-accent">
             <div className="container mx-auto px-6">
                 <div className="mt-12">
-                    <h3 className="text-2xl font-bold justify-center mx-auto lg:justify-start lg:mx-0 mb-8 text-purple-custom flex items-center">
+                    <h3 className="text-2xl font-bold justify-center mb-8 text-purple-custom flex items-center">
                         <svg className="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                         Skills
                     </h3>
                     
-                    <div className="grid md:grid-cols-2 gap-8 items-center justify-center">
+                    <div className="block w-1/2 mx-auto items-center justify-center">
                         <div className="space-y-3">
                             
                             <div className="skill-item">
@@ -120,7 +120,7 @@ export default function Resume() {
                                 </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-4 gap-4 mt-8 justify-items-center">
+                        <div className="flex gap-8 mt-8 justify-between">
                             <div title="JavaScript">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="w-14 h-14" alt="JavaScript"/>
                             </div>

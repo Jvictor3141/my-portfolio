@@ -17,7 +17,7 @@ export function Certificates() {
                             </div>
                             <h3 className="text-xl font-bold text-white mb-2">Desenvolvedor Full Stack Python</h3>
                             <p className="text-cyan-custom mb-2">EBAC</p>
-                            <p className="text-sm text-gray-400">2025</p>
+                            <p className="text-sm text-gray-400">2026</p>
                         </div>
                         <p className="text-gray-300 text-sm text-center">
                             Certificação em desenvolvimento full stack com Python, incluindo Django.
@@ -31,12 +31,12 @@ export function Certificates() {
                                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
-                            <h3 className="text-xl font-bold text-white mb-2">React Professional</h3>
-                            <p className="text-blue-custom mb-2">Meta (Facebook)</p>
-                            <p className="text-sm text-gray-400">2022</p>
+                            <h3 className="text-xl font-bold text-white mb-2">HTML, CSS e JavaScript Essencials</h3>
+                            <p className="text-blue-custom mb-2">Udemy</p>
+                            <p className="text-sm text-gray-400">2025</p>
                         </div>
                         <p className="text-gray-300 text-sm text-center">
-                            Especialização avançada em desenvolvimento React
+                            Curso Básico de desenvolvimento web front-end com HTML, CSS e JavaScript.
                         </p>
                     </div>
                     
@@ -47,12 +47,12 @@ export function Certificates() {
                                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
-                            <h3 className="text-xl font-bold text-white mb-2">UX Design Certificate</h3>
+                            <h3 className="text-xl font-bold text-white mb-2">Introdução à Programação</h3>
                             <p className="text-purple-custom mb-2">Google</p>
-                            <p className="text-sm text-gray-400">2022</p>
+                            <p className="text-sm text-gray-400">2025</p>
                         </div>
                         <p className="text-gray-300 text-sm text-center">
-                            Certificação em design de experiência do usuário
+                            Curso introdutório à lógica de programação e algoritmos.
                         </p>
                     </div>
                     
