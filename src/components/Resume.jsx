@@ -93,7 +93,7 @@ export default function Resume() {
                             <div className="skill-item">
                                 <div className="flex justify-between mb-2">
                                     <span className="text-white">TailwindCSS</span>
-                                    <span className="text-teal-custom">40%</span>
+                                    <span className="text-teal-custom">20%</span>
                                 </div>
                                 <div className="w-full bg-dark-accent/20 rounded-full h-2 overflow-hidden">
                                     <div className="progress h-2 rounded-full bg-linear-to-r from-teal-custom to-cyan-custom" data-width="40%" style={{width: "0%"}}></div>
